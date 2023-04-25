@@ -3,10 +3,10 @@
 <h3> Installing <h3>
 
 
-$ pkg install 
-
-$ pkg install git
-
-$ pkg install python 
-
 $ git clone https://github.com/TeamDoctorRed/Sms-bombing
+
+$ pip install -r requirements.txt
+
+$ls 
+
+$ python bombing.py
