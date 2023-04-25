@@ -5,8 +5,14 @@
 
 $ git clone https://github.com/TeamDoctorRed/Sms-bombing
 
+$ ls
+
+$ cd Sms-bombing
+
+$ ls
+
 $ pip install -r requirements.txt
 
-$ls 
+$ ls 
 
 $ python bombing.py
