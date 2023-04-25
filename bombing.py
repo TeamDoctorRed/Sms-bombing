@@ -6,7 +6,7 @@ def animated(text):
     sys.stdout.flush()
     time.sleep(0.005)
 logo = '''
-                     .-*=*=+:                
+                     \x1b[38;5;197m.-*=*=+:                
                     :+=    -+: . :           
               =+*++=*=     -+..:=::=.        
              .*#%%%%%%#+=. ++ ..=======-     
@@ -25,11 +25,11 @@ logo = '''
             :-==++==:.        
  '''
 name = '''
-        Team     : Team Doctor Red 
+      \x1b[38;5;41m  Team     : Team Doctor Red 
         Author   : Mohammad Sagor 
         Facebook : https://www.facebook.com/profile.php?id=100090980307287&mibextid=ZbWKwL
 '''
-line = '....................................................................\n'
+line = '\x1b[38;5;220m....................................................................\n'
 
 animated(logo)
 animated(line)
